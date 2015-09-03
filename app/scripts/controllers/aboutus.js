@@ -8,10 +8,11 @@
  * Controller of the helloApp
  */
 angular.module('helloApp')
-  .controller('AboutCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('AboutusCtrl', function ($scope) {
+    $scope.name="suhas";
+    // this.awesomeThings = [
+    //   'HTML5 Boilerplate',
+    //   'AngularJS',
+    //   'Karma'
+    // ];
   });
